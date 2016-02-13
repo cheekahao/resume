@@ -3,15 +3,25 @@
     font-weight: bold;
     margin: @padding-large-vertical 0 @padding-small-vertical 0;
 }
-
-.education-major, .education-honor {
+.education-place{
+    float: right;
+}
+.education-major,.education-degree{
     list-style-type: none;
-    line-height: @line-height-base;
+    display: block;
+    float: right;
+    font-weight: normal;
+    margin-top: 8px;
+    font-size: @font-size-base;
+}
+.education-major{
     margin: 0;
     padding: 0;
+    float: none;
+    text-indent: 28px;
 }
 
 .set-section-icon(education, @fa-var-book);
 .set-timeline-icon(education-undergraduate, @fa-var-bookmark);
-.set-li-icon(education-major, @fa-var-graduation-cap);
+//.set-li-icon(education-major, @fa-var-graduation-cap);
 .set-li-icon(education-honor, @fa-var-trophy);

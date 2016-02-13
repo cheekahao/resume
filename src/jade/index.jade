@@ -1,36 +1,53 @@
 extends ./layout/resume-layout.jade
 include ./mixins/util.jade
 
-block education
-  +section("education", true)
-    each item in education
-      li.timeline-item(class="education-" + item.type)
-        h3.timeline-title
-          time.education-time #{item.start} ~ #{item.end}
-        dl.education-description.timeline-content
-          dt.education-name= item.name
-          dd.education-major= item.major + education_type[item.type]
-          each honor in item.honor
-            dd.education-honor!= highlight(honor)
-
-
-block language
-  +section("language", false)
-    each lang in language
-      +certificate(lang.certificate)
-      ul.language-description
-        each desc in lang.description
-          li.language-desc-item= desc
-
-
 block experience
   +section("experience", true)
     each item in experience
+      if (item.type == "experience")
+        li.timeline-item(class="education-" + item.stage)
+          h3.timeline-title
+            span.education-place= item.place
+            time.education-time #{item.start} ~ #{item.end}
+          dl.education-description.timeline-content
+            dt.education-name= item.name
+            dd.education-major= item.description
+      else
+        li.timeline-item(class="education-" + item.stage)
+          h3.timeline-title
+            time.education-time #{item.start} ~ #{item.end}
+          .education-description.timeline-content
+            .education-name= item.name
+              span.education-degree= item.major + education_type[item.stage]
+//
+//
+//
+//block language
+//  +section("language", false)
+//    each lang in language
+//      +certificate(lang.certificate)
+//      ul.language-description
+//        each desc in lang.description
+//          li.language-desc-item= desc
+
+
+block project
+  +section("project", true)
+    each item in project
       li.timeline-item(class="experience-" + item.type)
         h3.timeline-title
-          +#{"experience_title_" + item.type}(item)
+          span.experience-place= item.place
+          time.experience-time #{item.start} ~ #{item.end}
+          span.experience-title-aside
+            if item.source
+              a.experience-project-link & attributes({"href": item.source})= dict[source_code]
+            if item.demo
+              a.experience-project-link & attributes({"href": item.demo})= dict[demo]
         dl.experience-description.timeline-content
-          +#{"experience_content_" + item.type}(item)
+          dt.experience-position= item.name
+          dd.experience-task= item.description
+
+
 
 block skills
   +section("skills", true)
@@ -49,5 +66,5 @@ block links
 
 block repo
   p
-    | This resume is generated with Gulp, Less and Jade by 
-    | #[a(href="https://github.com/joyeecheung/resume") Joyee Cheung&#39;s resume generator].
+    | This resume is generated with a branch of #[a(href="https://github.com/joyeecheung/resume") resume generator] by
+    | #[a(href="https://github.com/joyeecheung/resume") Cheeka Hao].

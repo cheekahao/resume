@@ -1,14 +1,20 @@
 module.exports = {
     experience_type: {
-        "internship": "（实习）"
+        "self-taught": "（自学）",
+        "full-time": "（全职）"
+    },
+    project_type: {
+        "self-taught": "（自学）",
+        "full-time": "（全职）"
     },
     skill_type: {
         "frontend": "Web 前端",
-        "backend": "Web 后端",
+        "backend": "后端及其他",
         "miscellaneous": "其他"
     },
     education_type: {
-        "undergraduate": "（本科）"
+        "undergraduate": "（本科）",
+        "master": "（硕士）"
     },
     link_type: {
         "zhihu": "知乎",
@@ -17,17 +23,17 @@ module.exports = {
         "pdf": "PDF 下载"
     },
     section_names: {
-        "education": {
-            "ch": "教育经历",
-            "en": "Education"
+        "experience": {
+            "ch": "工作&教育经历",
+            "en": "Experience & Education"
         },
         "language": {
             "ch": "语言水平",
             "en": "Language"
         },
-        "experience": {
-            "ch": "项目与工作经验",
-            "en": "Experience"
+        "project": {
+            "ch": "项目经历",
+            "en": "Project"
         },
         "skills": {
             "ch": "技能",
