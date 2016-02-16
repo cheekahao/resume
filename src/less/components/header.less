@@ -4,7 +4,10 @@
     width: @qrcode-size;
     height: @qrcode-size;
 }
-
+.header-qrcode .photo-img {
+    width: @qrcode-size;
+    height: @qrcode-size;
+}
 header {
     .float-container();
     padding-bottom: @padding-base-vertical;
@@ -30,7 +33,10 @@ header {
 
 .title h1 {
     padding: @padding-small-vertical 0;
+    margin-left: 40px;
     color: white;
+    font-weight: normal;
+    line-height: 1.13513514;;
 }
 
 .title h2 {
@@ -41,16 +47,19 @@ header {
 .header-qrcode {
     float: left;
     margin: 0;
+    border-radius: 100%;
+    overflow: hidden;
 }
 
 address {
     .float-container();
 }
 
-header .contact {
+header .contact,
+header .base_info{
     float: left;
     margin: 0;
-    padding-left: @padding-large-horizontal;
+    padding: @padding-huge-vertical 0 @padding-huge-vertical @padding-large-horizontal;
     @media print or (max-width: @screen-xs-max) {
       float: none;
       margin-top: @padding-large-vertical;
@@ -59,11 +68,31 @@ header .contact {
 }
 
 header .contact li {
-    list-style-type: none;
     font-style: normal;
-    line-height: 1.4;
+    line-height: 1.6;
     font-size: @font-size-medium;
     word-break: break-all;
+    float: left;
+    width: 50%;
+}
+
+header .base_info{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+    font-size: @font-size-large;
+}
+header .base_info{
+    li{
+        display: inline;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-right: 1px solid #fff;
+        font-style: normal;
+    }
+    li:last-child{
+        border-right: none;
+    }
 }
 
 header a:link, header a:visited {

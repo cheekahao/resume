@@ -19,7 +19,7 @@ module.exports = {
     link_type: {
         "zhihu": "Zhihu",
         "doubanbook": "Douban",
-        "repo": "Source",
+        "repo": "GitHub",
         "pdf": "PDF"
     },
     section_names: {

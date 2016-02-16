@@ -3,27 +3,29 @@
   "ga_id": "UA-63818301-2",
   "resume_title": "郝振佳 - 个人简历",
   "name": "郝振佳",
+  "photo": {
+    "name": "郝振佳",
+    "img": "static/haozj.jpg"
+  },
   "repo": "https://github.com/cheekahao",
   "job_description": ["前端工程师"],
   "contact": {
     "email": "cheeka@163.com",
-    "wechat": {
-      "id": "cheeka",
-      "qrcode": "static/wechat.png"
-    },
-    "sinaweibo": {
-      "id": "SYSU_Joyee",
-      "url": "http://weibo.com/2930876843"
+    "phone": "1810778863",
+    "blog": {
+      "url": "https://cheekahao.github.io"
     },
     "github": {
       "id": "cheekahao"
-    },
-    "blog": {
-      "url": "http://joyeecheung.cnblogs.com"
     }
   },
+  "base_info":{
+    "age": "30",
+    "education": "硕士",
+    "experience": "4年工作经验(2年前端)"
+  },
   "links": [{
-    "type": "GitHub",
+    "type": "repo",
     "url": "https://github.com/cheekahao"
 
   }, {
@@ -32,10 +34,7 @@
 
   }, {
     "type": "zhihu",
-    "url": "http://www.zhihu.com/people/zhang-qiu-yi-27/"
-  }, {
-    "type": "doubanbook",
-    "url": "http://book.douban.com/people/joyee-cheung/"
+    "url": "http://www.zhihu.com/people/cheeka/"
   }],
   "experience": [{
     "type": "experience",
@@ -56,7 +55,7 @@
     "start": "2014.02",
     "end": "2015.04",
     "name": "前端开发",
-    "description": "在一个朋友的帮助和指导下，自学WEB前端开发及网页设计相关知识，并与之一起合作（朋友负责后台PHP及java部分），先后完成网站3个，并成功上线网站2个，制作宣传册2个。",
+    "description": "自学WEB前端开发及网页设计相关知识，并与朋友一起合作（朋友负责后台PHP及java部分），先后完成网站3个，并成功上线网站2个，制作宣传册2个。",
     "stack": ["html", "css", "jquery", "javascript"],
     "compatibility": "IE7+"
   },{

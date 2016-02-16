@@ -19,7 +19,7 @@ module.exports = {
     link_type: {
         "zhihu": "知乎",
         "doubanbook": "豆瓣读书",
-        "repo": "源代码",
+        "repo": "GitHub",
         "pdf": "PDF 下载"
     },
     section_names: {
