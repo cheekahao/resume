@@ -12,11 +12,12 @@
   "contact": {
     "email": "cheeka@163.com",
     "phone": "1810778863",
-    "blog": {
-      "url": "https://cheekahao.github.io"
-    },
+
     "github": {
       "id": "cheekahao"
+    },
+    "blog": {
+      "url": "https://cheekahao.github.io"
     }
   },
   "base_info":{
@@ -30,7 +31,7 @@
 
   }, {
     "type": "pdf",
-    "url": "static/joyeecheung.pdf"
+    "url": "static/cheekahao.pdf"
 
   }, {
     "type": "zhihu",
@@ -56,6 +57,17 @@
     "end": "2015.04",
     "name": "前端开发",
     "description": "自学WEB前端开发及网页设计相关知识，并与朋友一起合作（朋友负责后台PHP及java部分），先后完成网站3个，并成功上线网站2个，制作宣传册2个。",
+    "stack": ["html", "css", "jquery", "javascript"],
+    "compatibility": "IE7+"
+  },{
+    "type": "experience",
+    "stage": "self-taught",
+    "techtype": "frontend",
+    "place": "中信国安盟固利电源技术有限公司",
+    "start": "2012.01",
+    "end": "2015.04",
+    "name": "研发工程师",
+    "description": "负责公司锰酸锂产品的研发及生产技术支持",
     "stack": ["html", "css", "jquery", "javascript"],
     "compatibility": "IE7+"
   },{
