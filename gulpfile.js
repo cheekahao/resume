@@ -99,7 +99,7 @@ gulp.task('preview', ['build-for-deploy', 'serve']);
 /****************** Deploy ****************/
 gulp.task('deploy', ['build-for-deploy'], function() {
   return gulp.src('./dist/**/*')
-    .pipe(plugins.ghPages({'remoteUrl': 'git@github.com:cheekahao/resume.git'}));
+    .pipe(plugins.ghPages());
 });
 
 /****************** Default ****************/
