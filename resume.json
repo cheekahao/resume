@@ -142,10 +142,10 @@
     }, {
       "summary": "`JavaScript`",
       "description": [
-        "JavaScript基础扎实，熟悉闭包、原型链等语言特性，能够用原生js进行DOM编程，并能熟练应用jQuery完成常用交互效果的开发",
-        "并对jQuery、Bootstrap等著名前端框架的源码有一定研究，掌握Bootstrap插件的开发",
-        "对Angularjs，Vuejs等MVVM框架，LESS等CSS预处理语言有一定了解",
-        "了解AMD、CMD等前端模块化开发规范"
+        "`JavaScript`基础扎实，熟悉`闭包`、`原型链`等语言特性，能够用原生js进行`DOM`编程，并能熟练应用`jQuery`完成常用交互效果的开发",
+        "对`jQuery`、`Bootstrap`等著名前端框架的源码有一定研究，掌握`Bootstrap插件`的开发",
+        "对`Angularjs`，`Vuejs`等MVVM框架，`LESS`等CSS预处理语言有一定了解",
+        "了解`AMD`、`CMD`等前端模块化开发规范"
       ]
     }]
   }, {
@@ -153,11 +153,11 @@
     "item": [{
       "summary": "",
       "description": [
-        "熟练掌握smarty模板、jsp模板，DedeCMS模板等模板技术的开发",
-        "了解nodejs、PHP、Java、SQL等常用后端语言，并能够完成简单的nodejs、PHP开发",
-        "能够利用Eclipse完成Java项目的本地调试，能够独立完成nodejs、LMAP环境开发环境的搭建",
-        "熟练掌握Photoshop切图并能完成简单的页面设计，对常用页面交互优化，用户体验优化有一定的心得",
-        "熟练掌握SVN、Git等常用团队协作工具的使用"
+        "熟练掌握`smarty`模板、`jsp`模板，`DedeCMS`模板等模板技术的开发",
+        "了解`nodejs`、`PHP`、`Java`、`SQL`等常用后端语言，并能够完成简单的`nodejs`、`PHP`开发",
+        "能够利用`Eclipse`完成`Java`项目的本地调试，能够独立完成`nodejs`、`LMAP`环境开发环境的搭建",
+        "熟练掌握`Photoshop`切图并能完成简单的页面设计，对常用页面交互优化，用户体验优化有一定的心得",
+        "熟练掌握`SVN`、`Git`等常用团队协作工具的使用"
       ]
     }]
   }]
