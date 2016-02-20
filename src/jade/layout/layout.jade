@@ -1,4 +1,4 @@
-include ../mixins/ga.jade
+include ../mixins/ba
 
 doctype html
 <!--[if lte IE 8]>
@@ -12,8 +12,8 @@ head
   block title
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
   block style
-  if ga_id
-    +ga(ga_id)
+  if ba_id
+    +ba(ba_id)
 
 body
   block IEcondition
