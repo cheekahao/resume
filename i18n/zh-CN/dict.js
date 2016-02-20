@@ -43,7 +43,8 @@ module.exports = {
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",
     dict: {
         source_code: "源代码",
-        demo: "Demo"
+        demo: "Demo",
+        online: "线上地址"
     },
     project_type: {
         "personal": "个人项目"

@@ -93,7 +93,8 @@
     "start": "2015.04",
     "end": "至今",
     "name": "易保险官网",
-    "description": "主要分为PC版和M版，其中PC版包括官网(www.yibaoxian.com)、供合作伙伴嵌入的iframe版、新浪车险(chexian.sina.com)、360车险(http://hao.360.cn/car/chexian.html)等版本，M版包括官网M版、微信内嵌页面、APP内嵌页面及合作伙伴换肤版本(搜狐违章，车行易等)。整体架构为静态页面基本有dedecms管理，业务流程为jsp页面，换肤采用less快速生产相关皮肤样式",
+    "online": "http://www.yibaoxian.com",
+    "description": "主要分为PC版和M版，其中PC版包括官网、供合作伙伴嵌入的iframe版、新浪车险(chexian.sina.com)、360车险(http://hao.360.cn/car/chexian.html)等版本，M版包括官网M版、微信内嵌页面、APP内嵌页面及合作伙伴换肤版本(搜狐违章，车行易等)。整体架构为静态页面基本有dedecms管理，业务流程为jsp页面，换肤采用less快速生产相关皮肤样式",
     "stack": ["html", "css", "jquery", "javascript", "jsp", "bootstrap", "less"],
     "compatibility": "IE7+"
   },{
@@ -104,6 +105,8 @@
     "start": "2015.01",
     "end": "2015.06",
     "name": "新能源材料与综合利用技术实验室官网",
+    "online": "http://www.lianteam.org",
+    "source_code":"https://github.com/cheekahao/lianteam",
     "description": "主要负责网页UI设计及前端静态页面实现，注意学习html语义化及css的模块化，学习JavaScript语言基础及复杂jQuery交互效果的开发，并学习利用photoshop设计网站效果的基础知识",
     "stack": ["html", "css", "jquery", "javascript", "photoshop"],
     "compatibility": "IE8+"
@@ -143,7 +146,7 @@
       "summary": "`JavaScript`",
       "description": [
         "`JavaScript`基础扎实，熟悉`闭包`、`原型链`等语言特性，能够用原生js进行`DOM`编程，并能熟练应用`jQuery`完成常用交互效果的开发",
-        "对`jQuery`、`Bootstrap`等著名前端框架的源码有一定研究，掌握`Bootstrap插件`的开发",
+        "对`jQuery`、`Bootstrap`等著名前端框架的源码有一定研究，掌握`jQuery插件`和`Bootstrap插件`的开发",
         "对`Angularjs`，`Vuejs`等MVVM框架，`LESS`等CSS预处理语言有一定了解",
         "了解`AMD`、`CMD`等前端模块化开发规范"
       ]

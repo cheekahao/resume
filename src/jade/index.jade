@@ -38,13 +38,14 @@ block project
         h3.timeline-title
           span.experience-place= item.place
           time.experience-time #{item.start} ~ #{item.end}
-          span.experience-title-aside
-            if item.source
-              a.experience-project-link & attributes({"href": item.source})= dict[source_code]
-            if item.demo
-              a.experience-project-link & attributes({"href": item.demo})= dict[demo]
         dl.experience-description.timeline-content
           dt.experience-position= item.name
+            if item.source_code
+              a.experience-project-link(href= item.source_code)= dict.source_code
+            if item.demo
+              a.experience-project-link(href= item.demo)= dict.demo
+            if item.online
+              a.experience-project-link(href= item.online)= dict.online
           dd.experience-task= item.description
 
 
