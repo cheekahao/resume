@@ -2,6 +2,7 @@
     font-size: @font-size-huge;
     font-weight: bold;
     margin: @padding-large-vertical 0 @padding-small-vertical 0;
+    overflow: hidden;
 }
 .education-place{
     float: right;
@@ -25,3 +26,14 @@
 .set-timeline-icon(education-undergraduate, @fa-var-bookmark);
 //.set-li-icon(education-major, @fa-var-graduation-cap);
 .set-li-icon(education-honor, @fa-var-trophy);
+//简历在线地址
+.print-link{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: @padding-container-horizontal;
+    font-size: @font-size-small;
+    span {
+        margin-right: 20px;
+    }
+}

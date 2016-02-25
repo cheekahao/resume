@@ -11,7 +11,7 @@
   "job_description": ["前端工程师"],
   "contact": {
     "email": "cheeka@163.com",
-    "phone": "1810778863",
+    "phone": ["18510778863","15210665018"],
 
     "github": {
       "id": "cheekahao"
@@ -148,7 +148,7 @@
         "`JavaScript`基础扎实，熟悉`闭包`、`原型链`等语言特性，能够用原生js进行`DOM`编程，并能熟练应用`jQuery`完成常用交互效果的开发",
         "对`jQuery`、`Bootstrap`等著名前端框架的源码有一定研究，掌握`jQuery插件`和`Bootstrap插件`的开发",
         "对`Angularjs`，`Vuejs`等MVVM框架，`LESS`等CSS预处理语言有一定了解",
-        "了解`AMD`、`CMD`等前端模块化开发规范"
+        "了解`AMD`、`CMD`、`gulp`、`grunt`等前端模块化开发规范"
       ]
     }]
   }, {
@@ -156,7 +156,7 @@
     "item": [{
       "summary": "",
       "description": [
-        "熟练掌握`smarty`模板、`jsp`模板，`DedeCMS`模板等模板技术的开发",
+        "熟练掌握`smarty`模板、`jsp`模板，`DedeCMS`模板，`ejs`模板，`jade`模板等模板技术的开发",
         "了解`nodejs`、`PHP`、`Java`、`SQL`等常用后端语言，并能够完成简单的`nodejs`、`PHP`开发",
         "能够利用`Eclipse`完成`Java`项目的本地调试，能够独立完成`nodejs`、`LMAP`环境开发环境的搭建",
         "熟练掌握`Photoshop`切图并能完成简单的页面设计，对常用页面交互优化，用户体验优化有一定的心得",

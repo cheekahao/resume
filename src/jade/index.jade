@@ -65,6 +65,11 @@ block links
         li.link
           a(href=link.url)= link_type[link.type]
 
+block print-link
+  section.print-link
+    span 在线简历
+    a(href="https://cheekahao.github.io/resume")= "https://cheekahao.github.io/resume"
+
 block repo
   p
     | This resume is generated with a branch of #[a(href="https://github.com/joyeecheung/resume") resume generator] by

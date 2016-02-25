@@ -1,6 +1,14 @@
 mixin phone(number)
   li.contact-phone&attributes(attributes)
-    a(href="tel:" + number)= number
+    if(typeof number == "object")
+      each item, index in number
+        if(index == 0)
+          a(href="tel:" + item)= item
+        else
+          span /
+          a(href="tel:" + item)= item
+    else
+      a(href="tel:" + number)= number
 
 mixin email(addr)
   li.contact-email&attributes(attributes)
