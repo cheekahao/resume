@@ -24,8 +24,7 @@
     "gulp-sourcemaps": "^1.5.2",
     "highlight.js": "^8.6.0",
     "jade": "^1.10.0",
-    "npm": "^3.7.2",
-    "pdfkit": "^0.7.2"
+    "npm": "^3.7.2"
   },
   "bugs": {
     "url": "https://github.com/joyeecheung/resume/issues"
