@@ -17,13 +17,13 @@
       "id": "cheekahao"
     },
     "blog": {
-      "url": "https://cheekahao.github.io"
+      "url": "https://www.haozhenjia.com"
     }
   },
   "base_info":{
-    "age": "30",
+    "age": "31",
     "education": "硕士",
-    "experience": "4年工作经验(2年前端)"
+    "experience": "5年工作经验(2年前端)"
   },
   "links": [{
     "type": "repo",
@@ -41,49 +41,40 @@
     "type": "experience",
     "stage": "full-time",
     "techtype": "frontend",
-    "place": "北京融保网络技术有限公司",
-    "start": "2015.04",
+    "place": "乐视致新",
+    "start": "2016.03",
     "end": "至今",
     "name": "前端工程师",
-    "description": "负责公司PC版、M版网站的改版，更新及维护；网站公用UI组件的开发与维护，网站兼容性（ie7+）的改善与维护；参与前后端交互接口的设计，并负责一部分前后端js的开发与维护；主导公司前端开发规范的制定，负责cms后台的管理和维护，并参与网站前端架构的设计与改进；同时，也承担了一部分指导其他前端工程师及实习生的工作",
+    "description": "",
+    "stack": ["html", "css", "jquery", "javascript", "bootstrap", "less"],
+    "compatibility": "IE9+"
+  },{
+    "type": "experience",
+    "stage": "full-time",
+    "techtype": "frontend",
+    "place": "北京融保网络技术有限公司",
+    "start": "2015.04",
+    "end": "2016.03",
+    "name": "前端工程师",
+    "description": "负责易保险PC版、M版网站的改版，更新及维护；网站公用UI组件的开发与维护，网站兼容性（ie7+）的改善与维护；参与前后端交互接口的设计，并负责一部分前后端js的开发与维护；主导公司前端开发规范的制定，负责cms后台的管理和维护，并参与网站前端架构的设计与改进；同时，也承担了一部分指导其他前端工程师及实习生的工作",
     "stack": ["html", "css", "jquery", "javascript", "bootstrap", "less"],
     "compatibility": "IE7+"
   },{
-    "type": "experience",
-    "stage": "self-taught",
-    "techtype": "frontend",
-    "place": "业余时间自学",
-    "start": "2014.02",
-    "end": "2015.04",
-    "name": "前端开发",
-    "description": "自学WEB前端开发及网页设计相关知识，并与朋友一起合作（朋友负责后台PHP及java部分），先后完成网站3个，并成功上线网站2个，制作宣传册2个。",
-    "stack": ["html", "css", "jquery", "javascript"],
-    "compatibility": "IE7+"
-  },{
-    "type": "experience",
-    "stage": "self-taught",
-    "techtype": "frontend",
-    "place": "中信国安盟固利电源技术有限公司",
-    "start": "2012.01",
-    "end": "2015.04",
-    "name": "研发工程师",
-    "description": "负责公司锰酸锂产品的研发及生产技术支持",
-    "stack": ["html", "css", "jquery", "javascript"],
-    "compatibility": "IE7+"
-  },{
-    "type": "education",
-    "stage": "master",
-    "name": "北京科技大学",
-    "major": "材料科学与工程",
-    "start": "2009.09",
-    "end": "2012.01"
-  },{
-    "type": "education",
-    "stage": "undergraduate",
-    "name": "河南理工大学",
-    "major": "材料科学与工程",
-    "start": "2005.09",
-    "end": "2009.06"
+    "type": "other",
+    "stage": "other",
+    "place": "其他经历",
+    "start": "2015.04",
+    "end": "2016.03",
+    "detail": [{
+        "company": "中信国安盟固利电源技术有限公司",
+        "description": "研发工程师"
+    },{
+        "company": "北京科技大学",
+        "description": "材料科学与工程(硕士)"
+    },{
+        "company": "河南理工大学",
+        "description": "材料科学与工程(学士)"
+    }]
   }],
   "project":[{
     "type": "full-time",
