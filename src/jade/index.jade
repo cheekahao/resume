@@ -12,13 +12,23 @@ block experience
           dl.education-description.timeline-content
             dt.education-name= item.name
             dd.education-major= item.description
-      else
+      if (item.type == "other")
         li.timeline-item(class="education-" + item.stage)
           h3.timeline-title
+            span.education-place= item.place
             time.education-time #{item.start} ~ #{item.end}
-          .education-description.timeline-content
-            .education-name= item.name
-              span.education-degree= item.major + education_type[item.stage]
+          ul.education-description.timeline-content
+            each other in item.detail
+              li.education-major
+                span= other.company
+                span.education-degree= other.description 
+    //-   else
+    //-     li.timeline-item(class="education-" + item.stage)
+    //-       h3.timeline-title
+    //-         time.education-time #{item.start} ~ #{item.end}
+    //-       .education-description.timeline-content
+    //-         .education-name= item.name
+    //-           span.education-degree= item.major + education_type[item.stage]
 //
 //
 //
