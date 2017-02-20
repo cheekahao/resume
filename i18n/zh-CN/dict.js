@@ -32,12 +32,16 @@ module.exports = {
             "en": "Language"
         },
         "project": {
-            "ch": "项目经历",
+            "ch": "工作&教育经历",
             "en": "Project"
         },
         "skills": {
             "ch": "技能",
             "en": "Skills"
+        },
+        "self_appraisal": {
+            "ch": "自我评价",
+            "en": "Self Appraisal"
         }
     },
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",

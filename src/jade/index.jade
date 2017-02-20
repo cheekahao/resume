@@ -1,65 +1,36 @@
 extends ./layout/resume-layout.jade
 include ./mixins/util.jade
 
-block experience
-  +section("experience", true)
-    each item in experience
-      if (item.type == "experience")
-        li.timeline-item(class="education-" + item.stage)
-          h3.timeline-title
-            span.education-place= item.place
-            time.education-time #{item.start} ~ #{item.end}
-          dl.education-description.timeline-content
-            dt.education-name= item.name
-            dd.education-major= item.description
-      if (item.type == "other")
-        li.timeline-item(class="education-" + item.stage)
-          h3.timeline-title
-            span.education-place= item.place
-            time.education-time #{item.start} ~ #{item.end}
-          ul.education-description.timeline-content
-            each other in item.detail
-              li.education-major
-                span= other.company
-                span.education-degree= other.description 
-    //-   else
-    //-     li.timeline-item(class="education-" + item.stage)
-    //-       h3.timeline-title
-    //-         time.education-time #{item.start} ~ #{item.end}
-    //-       .education-description.timeline-content
-    //-         .education-name= item.name
-    //-           span.education-degree= item.major + education_type[item.stage]
-//
-//
-//
-//block language
-//  +section("language", false)
-//    each lang in language
-//      +certificate(lang.certificate)
-//      ul.language-description
-//        each desc in lang.description
-//          li.language-desc-item= desc
-
-
 block project
-  +section("project", true)
+  +section("experience", true)
     each item in project
-      li.timeline-item(class="experience-" + item.type)
-        h3.timeline-title
-          span.experience-place= item.place
-          time.experience-time #{item.start} ~ #{item.end}
-        dl.experience-description.timeline-content
-          dt.experience-position= item.name
-            if item.source_code
-              a.experience-project-link(href= item.source_code)= dict.source_code
-            if item.demo
-              a.experience-project-link(href= item.demo)= dict.demo
-            if item.online
-              a.experience-project-link(href= item.online)= dict.online
-          dd.experience-task= item.description
-
-
-
+      if item.type != 'other-experience'
+        li.timeline-item(class="experience-" + item.type)
+          h3.timeline-title
+            span.experience-place= item.place
+            if (item.start && item.end)
+              time.experience-time #{item.start} ~ #{item.end}
+          each projectItem in item.list
+            dl.experience-description.timeline-content
+              dt.experience-position= projectItem.name
+                if projectItem.source_code
+                  a.experience-project-link(href= projectItem.source_code)= dict.source_code
+                if projectItem.demo
+                  a.experience-project-link(href= projectItem.demo)= dict.demo
+                if projectItem.online
+                  a.experience-project-link(href= projectItem.online)= dict.online
+                span.experience-job= projectItem.job
+              dd.experience-task!= highlight(projectItem.description)
+      if item.type == 'other-experience'
+        li.timeline-item(class="experience-" + item.type)
+          h3.timeline-title
+            span.experience-place= item.place
+          dl.experience-other.timeline-content
+            each projectItem in item.list
+              dd
+                span.name= projectItem.name
+                span.job= projectItem.job
+                time.experience-time #{projectItem.start} ~ #{projectItem.end}
 block skills
   +section("skills", true)
     each item in skills
@@ -67,7 +38,10 @@ block skills
         h3.timeline-title
           span.skills-type= skill_type[item.type]
         +#{"skills_" + item.type}(item)
-
+block self-appraisal
+  +section("self_appraisal", true)
+    each item in self_appraisal
+      li.self-appraisal-item= item
 
 block links
     ul.links
