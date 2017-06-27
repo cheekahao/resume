@@ -85,13 +85,13 @@
     "list": [{
       "job" : "前端工程师",
       "name": "乐视观星系统",
-      "description": "为了给乐视电视提供精准用户运营的大数据分析展示、用户画像和广告投放系统。前端采用`seajs`进行模块化，主要采用`MVVM`框架`avalon`来开发，采用`postmessage`的方式实现模板和js分离，采用`Echarts`进行大数据可视化，采用`WebSocket`进行前后端数据通信",
-      "stack": ["avalon", "echarts", "postmessage"],
+      "description": "为乐视电视提供精准用户运营的数据可视化、用户画像及广告投放系统。前端采用`seajs`进行模块化，采用`MVVM`框架`avalon`/`Vue`开发，采用`postmessage`实现模板和js分离，`Echarts`进行大数据可视化，实时数据部分采用`WebSocket`通信",
+      "stack": ["avalon", "Vue", "echarts", "postmessage"],
       "compatibility": "Chrome"
     },{
       "job" : "前端工程师",
       "name": "mpaas系统",
-      "description": "部门内部`PaaS`部署与管理后台。基于网易的开源迷你路由库`StateMan`的单页面应用(`SPA`)。主要包括应用管理、应用部署、应用监控及用户管理功能。",
+      "description": "部门内部`PaaS`部署与管理后台。基于网易的开源迷你路由库`StateMan`的单页面应用(`SPA`)。",
       "stack": ["StateMan", "echarts", "postmessage", "javascript"],
       "compatibility": "Chrome"
     }]
@@ -105,32 +105,9 @@
       "job" : "前端工程师",
       "name": "易保险官网",
       "online": "http://www.yibaoxian.com",
-      "description": "负责易保险PC版、M版网站的改版，更新及维护；网站公用UI组件的开发与维护，网站兼容性（ie7+）的改善与维护；参与前后端交互接口的设计，并负责一部分前后端js的开发与维护；主导公司前端开发规范的制定，负责cms后台的管理和维护，并参与网站前端架构的设计与改进；同时，也承担了一部分指导其他前端工程师及实习生的工作",
+      "description": "易保险PC版、M版网站的改版,更新及维护;网站公用UI组件的开发与维护,网站兼容性(ie7+)的改善与维护;同时,也承担了部分指导初级前端及实习生的工作",
       "stack": ["html", "css", "jquery", "javascript", "jsp", "bootstrap", "less"],
       "compatibility": "IE7+"
-    }]
-  },{
-    "type": "self-project",
-    "techtype": "frontend",
-    "place": "个人项目",
-    "start": "2014.03",
-    "end": "至今",
-    "list": [{
-      "job" : "前端&后端开发",
-      "name": "轻促销技能评测系统(开发中)",
-      "online": "http://121.42.199.213:8088/admin",
-      "source_code":"https://github.com/cheekahao/qingcuxiao",
-      "description": "为家人的客户做的促销员考试系统，前端采用`angularjs`相关技术栈，后端采用`nodejs` + `mongoDB`开发，在此开发过程中，基本掌握`angularjs`相关技术栈的前端开发和`nodejs`后端开发相关技能，并对后端的`MVC`思想有了一定的体会",
-      "stack": ["html", "css", "jquery", "javascript", "photoshop"],
-      "compatibility": "IE8+"
-    },{
-      "job" : "前端&后端开发",
-      "name": "新能源材料与综合利用技术实验室官网",
-      "online": "http://www.lianteam.org",
-      "source_code":"https://github.com/cheekahao/lianteam",
-      "description": "前端页面为学习前端期间开发，后端采用基于`NoderCMS`系统进行二次开发，在此过程中熟悉了`nodejs`、`express`、`mongoDB`开发",
-      "stack": ["html", "css", "jquery", "javascript", "photoshop"],
-      "compatibility": "IE8+"
     }]
   },{
     "type": "other-experience",
@@ -154,26 +131,27 @@
     }]
   }],
   "self_appraisal": [
-    "拥有一定的GEEK精神，对新技术保持着较好的好奇心，并拥有不错的自学能力，也拥有一定的自我驱动力",
+    "拥有一定的GEEK精神，对新技术保持着较好的好奇心，并拥有不错的自学能力以及一定的自我驱动力",
     "有轻微的代码洁癖，愿意不断地提高代码质量",
-    "拥有一定的沟通交际能力，乐于分享，能够较快的融入团队"
+    "拥有较强的团队协作观念和不错的沟通交际能力，乐于分享，能够较快的融入团队"
   ],
   "skills": [{
     "type": "frontend",
     "item": [{
-      "summary": "框架",
-      "description": [
-        "基本掌握`avalon`和`Angularjs`这两种`MVVM`框架，特别是在avalon与jQuery结合上有较深的心得体会；了解`Vuejs`和`React`以及`React Native`相关技术栈，写过简单的demo",
-        "使用过`StateMan`和`ui-router`搭建SPA应用，拥有一定的心得体会",
-        "拥有较丰富的`jQuery`及相关组件开发经验，对`Bootstrap`源码有过一些研究",
-        "了解`Sea.js`，`RequireJS`，`CommonJS`等常见JS模块化规范"
-      ]
-    }, {
       "summary": "基础",
       "description": [
-        "`JavaScript`基础比较扎实，熟悉`闭包`、`原型链`等语言特性，掌握JS的面向对象编程思想，对原生js的`DOM`操作等有所了解",
-        "能够开发出语义化的兼容性良好的`HTML`/`CSS`代码，拥有一定的移动端开发能力，对`CSS`的模块化有一定的心得体会",
-        "对`ES6`等新一代JS标准有所了解"
+        "`JavaScript`基础比较扎实，熟悉`闭包`、`原型链`等语言特性，掌握JS的面向对象编程思想，熟悉JS常用设计模式，了解`DOM`、`BOM`、浏览器渲染过程等前端基础知识，对`ES6`等新一代JS标准有所了解",
+        "有较为丰富的JS组件开发经验，对大数据量组件有一定的心得体会",
+        "能够开发出语义化良好、符合W3C标准的的兼容性良好的`HTML`/`CSS`代码，了解`HTML5`、`CSS3`等HTML新特性，有一定的移动端经验"
+      ]
+    }, {
+      "summary": "框架",
+      "description": [
+        "有一定的技术架构能力,有从头搭建内部管理系统的经验。负责过内部UI框架的架构，了解过`BEM`、`OOCSS`等模块化CSS规范，对模块化`CSS`开发有一定的心得体会",
+        "基本掌握`avalon`和`Angularjs`的开发，有一定的`Vue`开发经验，在`avalon/Vue`与`jQuery`组件结合上有较深的心得体会；了解`React`、`React Native`相关技术栈",
+        "使用过`StateMan`和`ui-router`搭建SPA应用，拥有一定的心得体会",
+        "拥有较为丰富的`jQuery`组件开发经验，注意提高代码可读性，对`Bootstrap`源码有过一定的研究",
+        "了解`Sea.js`，`RequireJS`，`CommonJS`等常见JS模块化规范"
       ]
     }]
   }, {
@@ -181,8 +159,8 @@
     "item": [{
       "summary": "",
       "description": [
-        "基本掌握`nodejs` + `express`开发，能够满足前端`MOCK`环境搭建等日常需求，能够结合`mongoDB`进行一定的后端开发。",
-        "掌握`Git`常用命令，对`PHP`、`Java`、`SQL`等也有简单的了解"
+        "熟悉`grunt`、`gulp`、`webpack`等常用前端自动化构建工具，拥有一定的`nodejs` + `express` + `mongoDB`项目经验，能够完成`MOCK`环境搭建等常规需求",
+        "掌握`Git`、`SVN`的日常操作，对`PHP`、`Java`、`SQL`等常用后端知识也有有了解"
       ]
     }]
   }]
