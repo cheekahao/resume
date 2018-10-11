@@ -11,8 +11,7 @@
   "job_description": ["前端工程师"],
   "contact": {
     "email": "cheeka@163.com",
-    "phone": ["18510778863","15210665018"],
-
+    "phone": ["15210665018"],
     "github": {
       "id": "cheekahao"
     },
@@ -20,10 +19,10 @@
       "url": "https://www.haozhenjia.com"
     }
   },
-  "base_info":{
-    "age": "31",
+  "base_info": {
+    "age": "32",
     "education": "硕士",
-    "experience": "5年工作经验(2年前端)"
+    "experience": "7年工作经验(前端4年)"
   },
   "links": [{
     "type": "repo",
@@ -37,6 +36,90 @@
     "type": "zhihu",
     "url": "http://www.zhihu.com/people/cheeka/"
   }],
+  "project": [{
+    "type": "full-time",
+    "techtype": "frontend",
+    "place": "北京腾云天下科技有限公司（TalkingData）",
+    "start": "2017.07",
+    "end": "至今",
+    "list": [{
+      "job": "前端工程师 & 部分后端",
+      "name": "谛听(DMap)",
+      "description": "地理信息相关大数据可视化平台，支持csv等静态数据和API动态数据的图表及地图可视化，并支持将图表和地图应用拼装拼装组合成可视化大屏。针对大数据量的地图及图表可视化做了大量的优化，支持上万条数据的可视化分析及展示。前期负责前端技术整体架构和关键功能开发，后期也负责了一定的`Node.js`后端开发和优化工作。",
+      "stack": ["avalon", "Vue", "echarts", "postmessage"],
+      "compatibility": "Chrome"
+    }]
+  }, {
+    "type": "full-time",
+    "techtype": "frontend",
+    "place": "乐视致新电子商务（北京）有限公司",
+    "start": "2016.03",
+    "end": "2017.07",
+    "list": [{
+      "job": "前端工程师",
+      "name": "乐视观星系统",
+      "description": "为乐视电视提供精准用户运营的数据可视化、用户画像及广告投放系统。前端采用`seajs`进行模块化，采用`MVVM`框架`avalon`/`Vue`开发，采用`postmessage`实现模板和js分离，`Echarts`进行大数据可视化，实时数据部分采用`WebSocket`通信",
+      "stack": ["avalon", "Vue", "echarts", "postmessage"],
+      "compatibility": "Chrome"
+    }]
+  }, {
+    "type": "other-experience",
+    "techtype": "frontend",
+    "place": "其他工作及教育经历",
+    "list": [{
+      "job": "前端工程师",
+      "name": "北京融保网络技术有限公司",
+      "start": "2015.04",
+      "end": "2016.03"
+    }, {
+      "job": "研发工程师",
+      "name": "中信国安盟固利电源技术有限公司",
+      "start": "2012.01",
+      "end": "2015.04"
+    }, {
+      "job": "材料科学与工程(硕士)",
+      "name": "北京科技大学",
+      "start": "2009.09",
+      "end": "2012.01"
+    }, {
+      "job": "材料科学与工程(学士)",
+      "name": "河南理工大学",
+      "start": "2005.09",
+      "end": "2009.06"
+    }]
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "基础",
+      "description": [
+        "`JavaScript`基础扎实，了解`DOM`、`BOM`、浏览器渲染过程等前端基础知识，掌握`ES6`相关JS新特性",
+        "掌握JS的面向对象编程思想，了解JS常用设计模式，对JS的组件化和CSS的模块化有较深的心得体会"
+      ]
+    }, {
+      "summary": "框架",
+      "description": [
+        "拥有一定的系统架构能力，独立负责过多个系统的技术选型和架构",
+        "掌握`Vue`相关技术栈，对`Angularjs`、`React`等其他`MVVM`框架也有一定的开发经验",
+        "有丰富的数据可视化经验，熟悉`Echarts`、`inMap`、百度地图等常用图表可视化、地理信息可视化框架及SDK",
+        "拥有较为丰富的`jQuery`组件开发经验，注意提高代码可读性，对`Bootstrap`源码有过一定的研究"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "",
+      "description": [
+        "拥有一定的`Node.js`后端项目经验，对`PHP`、`Java`、`SQL`等常用后端知识也有一定的了解",
+        "对`Git`命令行操作有较为全面的掌握，了解`SVN`基本操作"
+      ]
+    }]
+  }],
+  "self_appraisal": [
+    "拥有一定的GEEK精神，对新技术保持着较好的好奇心，并拥有不错的自学能力以及一定的自我驱动力",
+    "有轻微的代码洁癖，愿意不断地提高代码质量",
+    "拥有较强的团队协作观念和不错的沟通交际能力，乐于分享，能够较快的融入团队"
+  ],
   "experience": [{
     "type": "experience",
     "stage": "full-time",
@@ -48,120 +131,35 @@
     "description": "",
     "stack": ["avalon", "echarts", "postmessage"],
     "compatibility": "IE9+"
-  },{
+  }, {
     "type": "experience",
     "stage": "full-time",
     "techtype": "frontend",
-    "place": "北京融保网络技术有限公司",
-    "start": "2015.04",
-    "end": "2016.03",
+    "place": "乐视致新",
+    "start": "2016.03",
+    "end": "2017.07",
     "name": "前端工程师",
     "description": "",
-    "stack": ["html", "css", "jquery", "javascript", "bootstrap", "less"],
-    "compatibility": "IE7+"
-  },{
+    "stack": ["avalon", "echarts", "postmessage"],
+    "compatibility": "IE9+"
+  }, {
     "type": "other",
     "stage": "other",
     "place": "其他经历",
     "start": "2015.04",
     "end": "2016.03",
     "detail": [{
-        "company": "中信国安盟固利电源技术有限公司",
-        "description": "研发工程师"
-    },{
-        "company": "北京科技大学",
-        "description": "材料科学与工程(硕士)"
-    },{
-        "company": "河南理工大学",
-        "description": "材料科学与工程(学士)"
-    }]
-  }],
-  "project":[{
-    "type": "full-time",
-    "techtype": "frontend",
-    "place": "乐视致新",
-    "start": "2016.03",
-    "end": "至今",
-    "list": [{
-      "job" : "前端工程师",
-      "name": "乐视观星系统",
-      "description": "为乐视电视提供精准用户运营的数据可视化、用户画像及广告投放系统。前端采用`seajs`进行模块化，采用`MVVM`框架`avalon`/`Vue`开发，采用`postmessage`实现模板和js分离，`Echarts`进行大数据可视化，实时数据部分采用`WebSocket`通信",
-      "stack": ["avalon", "Vue", "echarts", "postmessage"],
-      "compatibility": "Chrome"
-    },{
-      "job" : "前端工程师",
-      "name": "mpaas系统",
-      "description": "部门内部`PaaS`部署与管理后台。基于网易的开源迷你路由库`StateMan`的单页面应用(`SPA`)。",
-      "stack": ["StateMan", "echarts", "postmessage", "javascript"],
-      "compatibility": "Chrome"
-    }]
-  },{
-    "type": "full-time",
-    "techtype": "frontend",
-    "place": "北京融保网络技术有限公司",
-    "start": "2015.04",
-    "end": "2016.03",
-    "list": [{
-      "job" : "前端工程师",
-      "name": "易保险官网",
-      "online": "http://www.yibaoxian.com",
-      "description": "易保险PC版、M版网站的改版,更新及维护;网站公用UI组件的开发与维护,网站兼容性(ie7+)的改善与维护;同时,也承担了部分指导初级前端及实习生的工作",
-      "stack": ["html", "css", "jquery", "javascript", "jsp", "bootstrap", "less"],
-      "compatibility": "IE7+"
-    }]
-  },{
-    "type": "other-experience",
-    "techtype": "frontend",
-    "place": "其他工作及教育经历",
-    "list": [{
-      "job" : "研发工程师",
-      "name": "中信国安盟固利电源技术有限公司",
-      "start": "2012.01",
-      "end": "2015.04"
-    },{
-      "job" : "材料科学与工程(硕士)",
-      "name": "北京科技大学",
-      "start": "2009.09",
-      "end": "2012.01"
-    },{
-      "job" : "材料科学与工程(学士)",
-      "name": "河南理工大学",
-      "start": "2005.09",
-      "end": "2009.06"
-    }]
-  }],
-  "self_appraisal": [
-    "拥有一定的GEEK精神，对新技术保持着较好的好奇心，并拥有不错的自学能力以及一定的自我驱动力",
-    "有轻微的代码洁癖，愿意不断地提高代码质量",
-    "拥有较强的团队协作观念和不错的沟通交际能力，乐于分享，能够较快的融入团队"
-  ],
-  "skills": [{
-    "type": "frontend",
-    "item": [{
-      "summary": "基础",
-      "description": [
-        "`JavaScript`基础比较扎实，熟悉`闭包`、`原型链`等语言特性，掌握JS的面向对象编程思想，熟悉JS常用设计模式，了解`DOM`、`BOM`、浏览器渲染过程等前端基础知识，对`ES6`等新一代JS标准有所了解",
-        "有较为丰富的JS组件开发经验，对大数据量组件有一定的心得体会",
-        "能够开发出语义化良好、符合W3C标准的的兼容性良好的`HTML`/`CSS`代码，了解`HTML5`、`CSS3`等HTML新特性，有一定的移动端经验"
-      ]
+      "company": "北京融保网络技术有限公司",
+      "description": "前端工程师"
     }, {
-      "summary": "框架",
-      "description": [
-        "有一定的技术架构能力,有从头搭建内部管理系统的经验。负责过内部UI框架的架构，了解过`BEM`、`OOCSS`等模块化CSS规范，对模块化`CSS`开发有一定的心得体会",
-        "基本掌握`avalon`和`Angularjs`的开发，有一定的`Vue`开发经验，在`avalon/Vue`与`jQuery`组件结合上有较深的心得体会；了解`React`、`React Native`相关技术栈",
-        "使用过`StateMan`和`ui-router`搭建SPA应用，拥有一定的心得体会",
-        "拥有较为丰富的`jQuery`组件开发经验，注意提高代码可读性，对`Bootstrap`源码有过一定的研究",
-        "了解`Sea.js`，`RequireJS`，`CommonJS`等常见JS模块化规范"
-      ]
-    }]
-  }, {
-    "type": "backend",
-    "item": [{
-      "summary": "",
-      "description": [
-        "熟悉`grunt`、`gulp`、`webpack`等常用前端自动化构建工具，拥有一定的`nodejs` + `express` + `mongoDB`项目经验，能够完成`MOCK`环境搭建等常规需求",
-        "掌握`Git`、`SVN`的日常操作，对`PHP`、`Java`、`SQL`等常用后端知识也有有了解"
-      ]
+      "company": "中信国安盟固利电源技术有限公司",
+      "description": "研发工程师"
+    }, {
+      "company": "北京科技大学",
+      "description": "材料科学与工程(硕士)"
+    }, {
+      "company": "河南理工大学",
+      "description": "材料科学与工程(学士)"
     }]
   }]
 }
