@@ -45,7 +45,13 @@
     "list": [{
       "job": "前端工程师 & 部分后端",
       "name": "谛听(DMap)",
-      "description": "地理信息相关大数据可视化平台，支持csv等静态数据和API动态数据的图表及地图可视化，并支持将图表和地图应用拼装拼装组合成可视化大屏。针对大数据量的地图及图表可视化做了大量的优化，支持上万条数据的可视化分析及展示。前期负责前端技术整体架构和关键功能开发，后期也负责了一定的`Node.js`后端开发和优化工作。",
+      "description": "地理信息相关大数据可视化平台，支持csv等静态数据和API动态数据的图表及地图可视化，并支持将图表和地图应用拼装拼装组合成可视化大屏。针对大数据量的地图及图表可视化做了大量的优化，支持上万条数据的可视化分析及展示。主要负责前端技术整体架构和关键功能开发，目前也负责一定的`Node.js`后端开发和优化工作。",
+      "stack": ["avalon", "Vue", "echarts", "postmessage"],
+      "compatibility": "Chrome"
+    },{
+      "job": "前端工程师",
+      "name": "蓝光地产前策项目",
+      "description": "为蓝光集团开发的投策平台，负责了城市价值、土地价值相关页面开发，并主导了市场监控模块的重构。",
       "stack": ["avalon", "Vue", "echarts", "postmessage"],
       "compatibility": "Chrome"
     }]
@@ -58,7 +64,13 @@
     "list": [{
       "job": "前端工程师",
       "name": "乐视观星系统",
-      "description": "为乐视电视提供精准用户运营的数据可视化、用户画像及广告投放系统。前端采用`seajs`进行模块化，采用`MVVM`框架`avalon`/`Vue`开发，采用`postmessage`实现模板和js分离，`Echarts`进行大数据可视化，实时数据部分采用`WebSocket`通信",
+      "description": "为乐视电视提供精准用户运营的数据可视化、用户画像及广告投放系统。担任该项目前端小组负责人，并主导和推送了该项目从`jQuery`向`avalon/Vue`的技术转型。",
+      "stack": ["avalon", "Vue", "echarts", "postmessage"],
+      "compatibility": "Chrome"
+    },{
+      "job": "前端工程师",
+      "name": "乐视mpaas系统",
+      "description": "部门内部`PaaS`部署与管理后台。独立完成该系统前端开发。",
       "stack": ["avalon", "Vue", "echarts", "postmessage"],
       "compatibility": "Chrome"
     }]

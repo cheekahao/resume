@@ -93,20 +93,9 @@ header .base_info{
         border-right: 1px solid #fff;
         font-style: normal;
     }
-    @media screen and (min-width: @screen-sm) {
-        li:last-child{
-            border-right: none;
-        }
+    li:last-child{
+        border-right: none;
     }
-    @media screen and (max-width: @screen-sm-max) {
-        li:last-child{
-            display: block;
-        }
-        li:nth-child(n+2){
-            border-right: none;
-        }
-    }
-
 }
 
 header a:link, header a:visited {
